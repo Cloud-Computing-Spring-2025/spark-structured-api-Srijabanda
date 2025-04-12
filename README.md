@@ -115,5 +115,13 @@ Each task's results are written to:
 ## 🚀 Run the Script
 
 ```bash
+python generate_listening_logs.py
+```
+
+```bash
+python generate_songs_metadata.py
+```
+
+```bash
 python music_analysis.py
 ```
