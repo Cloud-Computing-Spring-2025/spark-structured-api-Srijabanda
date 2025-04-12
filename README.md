@@ -17,6 +17,19 @@ Place the following CSV files in the project root:
   song_id,title,artist,genre,mood
   b4da6eff-3a3f-4c02-bd20-f2f0a214f281,Song A,Artist X,Pop,Happy
   ```
+## 🚀 Run the Script
+
+```bash
+python generate_listening_logs.py
+```
+
+```bash
+python generate_songs_metadata.py
+```
+
+```bash
+python music_analysis.py
+```
 
 ## ⚙️ Tasks Performed
 
@@ -112,16 +125,4 @@ Each task's results are written to:
 - PySpark
 - Hadoop (for `winutils.exe` on Windows)
 
-## 🚀 Run the Script
 
-```bash
-python generate_listening_logs.py
-```
-
-```bash
-python generate_songs_metadata.py
-```
-
-```bash
-python music_analysis.py
-```
